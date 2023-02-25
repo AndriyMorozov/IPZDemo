@@ -20,7 +20,7 @@ namespace ConsoleApp5
             Count = 0;
             Console.WriteLine("Static constructor executed!");
         }
-        public Point(double x, double y)
+        public Point(double x = 0, double y = 0)
         {
             X = x;
             Y = y;

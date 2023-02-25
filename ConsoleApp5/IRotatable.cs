@@ -8,6 +8,6 @@ namespace ConsoleApp5
 {
     public interface IRotatable
     {
-        void Rotate(int degree);
+        void Rotate(double degree);
     }    
 }

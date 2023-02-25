@@ -17,7 +17,7 @@ namespace ConsoleApp5
         public double Y { get; set; }
         static Point()
         {
-            Count = 10;
+            Count = 0;
             Console.WriteLine("Static constructor executed!");
         }
         public Point(double x, double y)
@@ -25,6 +25,12 @@ namespace ConsoleApp5
             X = x;
             Y = y;
             Console.WriteLine("Constructor executed!");
+        } 
+        public Point()
+        {
+            X = 0;
+            Y = 0;
+            Console.WriteLine("Default Constructor executed!");
         }
         public static bool operator ==(Point a, Point b)
         {

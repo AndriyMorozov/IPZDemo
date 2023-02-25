@@ -10,5 +10,6 @@ namespace ConsoleApp5
     {
         void Rotate(double degree);
         void RotateCC(double degree);
+        void RotateCV(double degree);
     }    
 }
